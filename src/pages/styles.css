@@ -2,7 +2,7 @@
 
 .header{
     max-width: 100%;
-    height: 500px;
+    height: 35vw;
     background-repeat: no-repeat;
     background-size: contain;
     background-size: cover;
@@ -43,11 +43,11 @@ body{
 
 .banner{
     font-size: 15vw;
-    margin-bottom: 0.4125rem;
+    margin-bottom: 0.4125vw;
     align: center;
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 13vw;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -105,10 +105,11 @@ body{
 
 
 .tagline{
-    font-size: 1.4vw;
+    font-size: 1.35vw;
     font-family: "Lato";
     text-transform: uppercase;
-    margin: 0;
+    margin-top: 1vw;
+    line-height:10px;
     position: absolute;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -116,13 +117,13 @@ body{
     white-space: nowrap;
 }
 .tl1{
-    top: 65%;
+    top: 20vw;
 }
 .tl2{
-    top: 70%;
+    top: 22vw;
 }
 .tl3{
-    top: 75%;
+    top: 24vw;
 }
 
 
