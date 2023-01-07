@@ -1,0 +1,334 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400|Oswald:400,700|Montserrat:400,700);
+
+.header{
+    max-width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	top:50%;
+	text-align: center;
+    float: none;
+    /* set gif as header background for better style and overall more striking appearance of webpage*/
+    background:url("https://64.media.tumblr.com/70eee16f4e8070c06af1ba2203cbbd37/b84138cb18d5d387-ff/s1280x1920/477c30ca91b85d838cff99c6d7923475ff0699fe.gif");
+}
+
+
+
+.footer{
+    text-align: center;
+    color: #ffff;
+    background-color: #181b1f;
+    height: 100px;
+    font-family: "Lato";
+    overflow:hidden;
+}
+.footerlink{
+    color: #ffff;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #212529;
+    color: #ffff;
+}
+
+
+
+.banner{
+    font-size: 15vw;
+    margin-bottom: 0.4125rem;
+    align: center;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #ffff;
+    font-family: "Impact";
+    font-weight: 200;
+    cursor: pointer;
+}
+.color-emphasis-1{
+    color: #26003d;
+    -webkit-text-stroke-color: #DF20BF;
+    -webkit-text-stroke-width: 3px;
+}
+
+
+
+.seemore{
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-decoration: none;
+}
+.seemore:hover {
+    font-size: 3rem;
+}
+.topic{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: "Oswald";
+    color: #ffff;
+    text-align: left;
+    padding: 30px;
+}
+.pagecount{
+    font-size: 1.8rem;
+    padding: 10px;
+    color: #DF20BF;
+}
+
+
+
+.genrelink{
+    cursor:pointer;
+    text-transform: uppercase;
+    font-size: 120%;
+}
+.fix{
+    vertical-align: top;
+    font-size: 120%;
+}
+
+
+
+.tagline{
+    font-size: 1.4vw;
+    font-family: "Lato";
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+.tl1{
+    top: 65%;
+}
+.tl2{
+    top: 70%;
+}
+.tl3{
+    top: 75%;
+}
+
+
+
+.showimages{
+    display:inline-block;
+    height: 250px;
+    cursor: pointer;
+    padding: 10px;
+}
+.showimages:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.showgroup{
+    width:100%;
+    text-align:center;
+}
+
+
+
+.poster{
+    height: 500px;
+    padding-left: 20px;
+    padding: 10px;
+}
+.content{
+    font-size: 100%;
+    text-align: left;
+    font-family: "Lato";
+    text-transform: uppercase;
+    text-height: 150%;
+    top: 0%;
+    padding: 0px;
+}
+.showtitle{
+    font-size: 300%;
+    text-align: left;
+    font-family: "Lato";
+    text-transform: uppercase;
+    text-height: 150%;
+    top: 0%;
+    padding: 0px;
+}
+
+
+
+.homegroup{
+    float: none;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 98%;
+block-size: fit-content;
+}
+.homebutton{
+  background-color: #111827;
+  width: 24%;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  height: 6vw;
+  background-color: #26003d;
+  color: #ffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Oswald";
+  font-size: 1.75vw;
+  font-weight: 520;
+  line-height: 1rem;
+  padding: .75rem 1.2rem;
+  text-decoration: none #6B7280 solid;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.homebutton:hover {
+    background-color: #374151;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.homebutton:focus {
+    box-shadow: none;
+    outline: 20px solid transparent;
+    outline-offset: 20px;
+}
+@media (min-width: 768px) {
+  .homebutton {
+        padding: .75rem 1.5rem;
+  }
+}
+.genregroup{
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 94%;
+    block-size: fit-content;
+}
+.genrebutton{
+    display:inline-block;
+    cursor: pointer;
+  background-color: #26003d;
+  width: 25%;
+  margin: 10px;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  height: 60px;
+  color: #ffff;
+  flex: 0 0 auto;
+  font-family: "Oswald";
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.genrebutton:hover {
+    background-color: #374151;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.genrebutton:focus {
+    box-shadow: none;
+    outline: 20px solid transparent;
+    outline-offset: 20px;
+}
+@media (min-width: 768px) {
+  .genrebutton {
+        padding: .75rem 1.5rem;
+  }
+}
+.detailsbutton{
+ width: 96%;
+}
+
+
+
+.pagination{
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination a{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "Oswald";
+    color: #ffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: black;
+  }
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+  .searchbar{
+    width: 95%;
+    padding:30px;
+    z-index: -1;
+    position:relative;
+  }
+
+  .results{
+    background-color:white;
+    color:black;
+    margin:30px;
+    font-family: "Lato";
+    line-height: 200%;
+    position:absolute;
+    width: 95.2%;
+    top: 690px;
+  }
+
+  .containerrow{
+    display:grid;
+  }
+
+  .searchbar, .results{
+    grid-column: 1;
+    grid-row: 1;
+  }
