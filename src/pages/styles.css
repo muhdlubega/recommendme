@@ -47,7 +47,7 @@ body{
     align: center;
     margin: 0;
     position: absolute;
-    top: 10vw;
+    top: 30%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -117,13 +117,13 @@ body{
     white-space: nowrap;
 }
 .tl1{
-    top: 20vw;
+    top: 50%;
 }
 .tl2{
-    top: 22vw;
+    top: 58%;
 }
 .tl3{
-    top: 24vw;
+    top: 66%;
 }
 
 
