@@ -42,7 +42,7 @@ body{
 
 
 .banner{
-    font-size: 10vw;
+    font-size: 9vw;
     margin-bottom: 0.4125vw;
     align: center;
     margin: 0;
@@ -59,7 +59,7 @@ body{
 .color-emphasis-1{
     color: #26003d;
     -webkit-text-stroke-color: #DF20BF;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 5px;
 }
 
 
