@@ -42,18 +42,18 @@ body{
 
 
 .banner{
-    font-size: 15vw;
+    font-size: 10500vw;
     margin-bottom: 0.4125vw;
     align: center;
     margin: 0;
     position: absolute;
-    top: 13vw;
+    top: 10vw;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #ffff;
-    font-family: "Impact", "Arial";
-    font-weight: 200;
+    font-family: "Impact", "Helvetica";
+    font-weight: bold;
     cursor: pointer;
 }
 .color-emphasis-1{
